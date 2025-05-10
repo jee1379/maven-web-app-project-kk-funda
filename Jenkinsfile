@@ -3,7 +3,7 @@ node
     def mavenHome=tool name: "maven-3.9.9"
     stage('Git Checkout')
     {
-       git branch: 'development', credentialsId: 'b06ac337-17fd-4210-9a4a-c83ed569a246', url: 'https://github.com/jee1379/maven-web-app-project-kk-funda.git'
+       git branch: 'bugfix', credentialsId: 'b06ac337-17fd-4210-9a4a-c83ed569a246', url: 'https://github.com/jee1379/maven-web-app-project-kk-funda.git'
     }
     stage('COMPILE')
     {
